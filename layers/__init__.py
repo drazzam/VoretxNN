@@ -1,25 +1,31 @@
 """
-VortexNN: Advanced Vortex-inspired Graph Neural Network
+Vortex Neural Network Layers.
 
-A deep learning library based on vortex mathematics principles, offering
-specialized layers, models, and utilities for pattern recognition and time series analysis.
+This subpackage provides specialized layers for building vortex-inspired neural networks.
 """
 
-__version__ = "0.1.0"
+# Import core layers
+from vortexnn.layers.base import BaseVortexLayer
+from vortexnn.layers.vortex_layers import VortexLayer, DualFlowVortexLayer, HarmonicResonanceLayer, DigitalRootUnit
+from vortexnn.layers.attention import VortexAttention
+from vortexnn.layers.activation import ModularActivation, DigitalRootNorm
+from vortexnn.layers.hyperbolic import HyperbolicVortexLayer
+from vortexnn.layers.quaternion import QuaternionLinear, QuaternionVortexLayer
+from vortexnn.layers.wavelet import WaveletVortexLayer, ModularFieldVortexLayer
 
-# Import key components to make them accessible directly from the package
-from vortexnn.models.advanced_vortex_gnn import AdvancedVortexGNN
-from vortexnn.utils.train import train_vortex_model
-from vortexnn.utils.evaluate import evaluate_vortex_model
-from vortexnn.utils.data import generate_cyclical_data, generate_complementary_data
-from vortexnn.utils.scheduler import VortexCyclicalLR
-
-# Define what's accessible via the public API
+# Define public API
 __all__ = [
-    'AdvancedVortexGNN',
-    'train_vortex_model',
-    'evaluate_vortex_model',
-    'generate_cyclical_data',
-    'generate_complementary_data',
-    'VortexCyclicalLR',
+    'BaseVortexLayer',
+    'VortexLayer',
+    'DualFlowVortexLayer',
+    'HarmonicResonanceLayer',
+    'DigitalRootUnit',
+    'VortexAttention',
+    'ModularActivation',
+    'DigitalRootNorm',
+    'HyperbolicVortexLayer',
+    'QuaternionLinear',
+    'QuaternionVortexLayer',
+    'WaveletVortexLayer',
+    'ModularFieldVortexLayer',
 ]
