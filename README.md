@@ -30,7 +30,7 @@ VortexNN is a PyTorch-based library that implements specialized neural network a
 # pip install vortexnn
 
 # Install from source
-git clone https://github.com/vortexnn/vortexnn.git
+git clone https://github.com/drazzam/vortexnn/vortexnn.git
 cd vortexnn
 pip install -e .
 ```
