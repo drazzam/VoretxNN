@@ -1,6 +1,6 @@
 # VortexNN
 
-## Advanced Vortex-inspired Graph Neural Networks
+## Vortex-inspired Graph Neural Networks
 
 VortexNN is a PyTorch-based library that implements specialized neural network architectures inspired by vortex mathematics principles. The library provides a collection of unique layers, models, and utilities for pattern recognition and time series analysis.
 
